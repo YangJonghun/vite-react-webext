@@ -67,11 +67,12 @@ yarn
 ### Folders
 
 - `src` - main source.
-  - `contentScript` - scripts and components to be injected as `content_script`
+  - `assets` - shareable public assets.
   - `background` - scripts for background.
+  - `contentScripts` - scripts and components to be injected as `content_script`
   - `components` - auto-imported Vue components that are shared in popup and options page.
   - `styles` - styles shared in popup and options page
-  - `manifest.ts` - manifest for the extension.
+  - `manifest.ts` - manifest for the extension (v2).
 - `extension` - extension package root.
   - `assets` - static assets.
   - `dist` - built files, also serve stub entry for Vite on development.
